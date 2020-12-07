@@ -1,1 +1,3 @@
-# estudo-HTML-CSS-JS
+# 2020
+
+Pequenos projetos para praticar programação.
