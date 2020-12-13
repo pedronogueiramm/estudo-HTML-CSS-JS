@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mate um Ally!</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Mate um Ally</h1>
+      <button class="btn" id="start-btn">Play</button>
+    </div>
+
+    <div class="screen">
+      <h1>Qual seu ally favorito?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Dan</p>
+            <img src="img/allyDan.png" alt="">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Gaio</p>
+            <img
+               src="img/allyGaio.png"
+               alt=""
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Crok</p>
+            <img
+               src="img/allyCrok.png"
+               alt=""
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Uchoa</p>
+            <img
+               src="img/allyCapitalista.png"
+               alt=""
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Ta cansado lek? <br>
+        Essa matança nunca vai acabar!
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
